@@ -9,3 +9,5 @@ RUN cd Atollic_TrueSTUDIO_for_STM32_9.1.0_installer && yes 1 | ./install.sh
 
 ## switch back to default user
 USER 1000
+
+RUN ln -s /opt/Atollic_TrueSTUDIO_for_STM32_x86_64_9.1.0/ide/TrueSTUDIO /headless/Desktop/Atollic-Truestudio
